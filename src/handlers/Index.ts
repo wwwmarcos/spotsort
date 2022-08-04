@@ -13,7 +13,7 @@ const html = `
     <center>
       <h1>create a new playlist organized by bpm</h1>
       <form action="/auth" method="get">
-        <input type="playlistId" name="p" id="p" placeholder="playlist id" autofocus />
+        <input type="text" name="p" id="p" placeholder="playlist url" autofocus />
         <button type="submit" aria-label="generate new playlist">generate</button>
       </form>
     </center>
